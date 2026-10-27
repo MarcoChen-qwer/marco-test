@@ -1,0 +1,13 @@
+{
+  "cart": {
+    "buyerIdentity": {
+      "customer": null
+    },
+    "cost": {
+      "subtotalAmount": {
+        "amount": "1200.00",
+        "currencyCode": "USD"
+      }
+    }
+  }
+}

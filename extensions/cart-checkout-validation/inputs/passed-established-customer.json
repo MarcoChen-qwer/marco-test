@@ -1,0 +1,15 @@
+{
+  "cart": {
+    "buyerIdentity": {
+      "customer": {
+        "numberOfOrders": 10
+      }
+    },
+    "cost": {
+      "subtotalAmount": {
+        "amount": "1200.00",
+        "currencyCode": "USD"
+      }
+    }
+  }
+}

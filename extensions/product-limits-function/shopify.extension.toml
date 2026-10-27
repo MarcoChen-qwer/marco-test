@@ -1,0 +1,18 @@
+api_version = "2026-10"
+
+[[extensions]]
+name = "Product Limits"
+handle = "product-limits-function"
+type = "function"
+
+  [extensions.ui]
+  handle = "product-limits-function-ui"
+
+  [[extensions.targeting]]
+  target = "cart.validations.generate.run"
+  input_query = "src/cart_validations_generate_run.graphql"
+  export = "cart-validations-generate-run"
+
+  [extensions.build]
+  path = "dist/function.wasm"
+  watch = ["src/**/*.js","src/**/*.graphql"]

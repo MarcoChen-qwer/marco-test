@@ -1,0 +1,12 @@
+api_version = "2026-10"
+[[extensions]]
+name= "Product Limits Settings"
+handle = "product-limits-function-ui"
+type = "ui_extension"
+uid = "929d9510-7bae-03ea-c7d7-7f90aa019f08f269f6cf"
+
+    [[extensions.targeting]]
+    module = "./src/ValidationSettings.jsx"
+    target = "admin.settings.validation.render"
+
+
